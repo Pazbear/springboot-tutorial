@@ -3,10 +3,12 @@ package com.pazbear.springtutorial.service;
 import com.pazbear.springtutorial.domain.Member;
 import com.pazbear.springtutorial.repository.MemberRepository;
 import com.pazbear.springtutorial.repository.MemoryMemberRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class MemberService {
 
     private final MemberRepository memberRepository;
