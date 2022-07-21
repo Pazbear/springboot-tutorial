@@ -10,3 +10,11 @@
 내장 톰캣 서버가 요청을 받으면  
 컨트롤러는 모델과 템플릿 이름을 스프링에 넘겨주고  
 스프링은 ViewResolver를 통해 템플릿을 찾아 렌더링후 변환한 HTML을 리턴함
+
+## 9. API
+내장 톰캣 서버가 요청을 받으면  
+@ResponseBody가 있을 경우 
+- 문자열이면 StringConverter를 통해 처리
+- 객체라면 JsonConverter를 통해 처리  
+
+후 리턴
