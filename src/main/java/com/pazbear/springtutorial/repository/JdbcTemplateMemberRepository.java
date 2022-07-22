@@ -1,4 +1,4 @@
-package com.pazbear.springtutorial.repository;
+/*package com.pazbear.springtutorial.repository;
 
 import com.pazbear.springtutorial.domain.Member;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -63,3 +63,5 @@ public class JdbcTemplateMemberRepository implements MemberRepository{
         };
     }
 }
+
+*/
