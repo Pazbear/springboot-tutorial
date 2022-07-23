@@ -1,5 +1,6 @@
 package com.pazbear.springtutorial;
 
+import com.pazbear.springtutorial.aop.TimeTraceAop;
 import com.pazbear.springtutorial.repository.JdbcMemberRepository;
 import com.pazbear.springtutorial.repository.JpaMemberRepository;
 import com.pazbear.springtutorial.repository.MemberRepository;
@@ -58,4 +59,5 @@ public class SpringConfig {
         //return new JpaMemberRepository(em);
     }
     */
+
 }
